@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>MENU</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+.topnav {
+  background-color: #ff0000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  margin:center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #FF0000;
+  color: white;
+}
+h1 {
+  font-size: 90px;
+  color:white;
+}
+.blink-bg{
+color: #fff;
+padding: 20px;
+display: inline-block;
+border-radius: 5px;
+animation: blinkingBackground 2s infinite;
+}
+@keyframes blinkingBackground{
+0% { background-color: #10c018;}
+25% { background-color: #1056c0;}
+50% { background-color: #ef0a1a;}
+75% { background-color: #254878;}
+100%        { background-color: #04a1d5;}
+}
+#moving{
+position: absolute;
+bottom: 15%;
+left: 5%;
+}
+#moving img{
+transition: 0.3s ease;
+}
+#moving img:hover{
+transform: translateY(-20px);
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Times new roman", sans-serif}
+</style>
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a href="file:///C:/Users/visha/OneDrive/Documents/Treatzz%20HTML/Order.html#THE MENU">Order</a>
+  <a href="file:///C:/Users/visha/OneDrive/Documents/Treatzz%20HTML/contact.html">Contact</a>
+  <a href="file:///C:/Users/visha/Downloads/ABOUT.html">About</a>
+</div>
+<body>
+<!-- Start Content -->
+<div id="home" class="w3-content">
+
+<!-- Menu -->
+<div id="menu" class="w3-container w3-black w3-xlarge w3-padding-64">
+<h1 class="w3-center w3-jumbo w3-padding-32">THE MENU</h1>
+<div class="w3-row w3-center w3-border w3-border-dark-grey">
+<a href="#pizza"><div class="w3-third w3-padding-large w3-red">Pizza</div></a>
+<a href="#Burger"><div class="w3-third w3-padding-large w3-hover-red">Burger</div></a>
+<a href="#Shawarma"><div class="w3-third w3-padding-large w3-hover-red">Shawarma</div></a>
+</div>
+
+<div id="pizza" class="w3-container w3-white w3-padding-32">
+
+<h1 style="font-size:50px"><b><span class ="w3-black" "w3-size-small" >Veggie Pizza</span></b> <span class="w3-right w3-tag w3-black w3-round">₹120.00</span></h1>
+<p class="w3-text-grey"></p>
+
+<hr>
+<h1 style="font-size:50px"><b><span class ="w3-black" >Pepperoni Pizza</span></b> <span class="w3-right w3-tag w3-black w3-round">₹160.00</span></h1>
+<p class="w3-text-grey"></p>
+
+<hr>
+<h1 style="font-size:50px"><b><span class ="w3-black" >Meat pizza</span></b> <span class="w3-right w3-tag w3-black w3-round">₹220.00</span></h1>
+<p class="w3-text-grey"></p>
+
+<hr>
+<h1 style="font-size:50px" ><b><span class ="w3-black" >Hawaiian Pizza</span></b> <span class="w3-right w3-tag w3-black w3-round">₹250.00</span></h1>
+<p class="w3-text-grey"></p>
+
+<hr>
+<h1 style="font-size:50px"><b><span class ="w3-black" >BBQ Pizza</span></b> <span class="w3-tag w3-red w3-round">Hot!</span>
+<span class="w3-right w3-tag w3-black w3-round">₹300.00</span></h1>
+<p class="w3-text-grey"></p>
+</div>
+
+<h1 id="Burger" class="w3-center w3-jumbo w3-padding-32">BURGER</h1>
+<div class="w3-container w3-white w3-padding-32">
+
+<h1 style="font-size:50px"><b class="w3-black">Turkey Burger</b> <span class="w3-tag w3-red w3-round">Popular</span>
+<span class="w3-right w3-tag w3-black w3-round">₹250.00</span></h1>
+<p class="w3-text-grey"></p>
+
+<hr>
+<h1 style="font-size:50px"><b class="w3-black">Veggie Burger</b> <span class="w3-right w3-tag w3-black w3-round">₹110.00</span></h1>
+<p class="w3-text-grey"></p>
+
+<hr>
+<h1 style="font-size:50px"><b class="w3-black">Chicken Burger</b> <span class="w3-right w3-tag w3-black w3-round">₹200.00</span></h1>
+<p class="w3-text-grey"></p>
+</div>
+
+<h1 id="Shawarma" class="w3-center w3-jumbo w3-padding-32">Shawarma</h1>
+<div class="w3-container w3-white w3-padding-32">
+
+<h1 style="font-size:50px"><b class="w3-black">Oven Roasted Chicken Shawarma</b> <span class="w3-tag w3-grey w3-round"></span>
+<span class="w3-right w3-tag w3-black w3-round">₹280.00</span></h1>
+<p class="w3-text-grey">Include Mayonnaise</p>
+
+<hr>
+<h1 style="font-size:50px"><b class="w3-black">Arabic Chicken shawarma</b> <span class="w3-right w3-tag w3-black w3-round">₹380.00</span></h1>
+<p class="w3-text-grey">Include Mayonnaise +Blueberry Mojito</p>
+
+<hr>
+<h1 style="font-size:50px"><b class="w3-black">Grilled Chicken Shawarma</b> <span class="w3-right w3-tag w3-black w3-round">₹220.00</span></h1>
+<p class="w3-text-grey">Include Mayonnaise +Strawberry Mojito</p>
+
+<hr>
+<h1 style="font-size:50px"><b class="w3-black">Mushroom Shawarma</b> <span class="w3-right w3-tag w3-black w3-round">₹160.00</span></h1>
+<p class="w3-text-grey">Include Mayonnaise</p>
+</div>
+</div>
+
+<!-- End Content -->
+</div>
+</body>
+</html>
